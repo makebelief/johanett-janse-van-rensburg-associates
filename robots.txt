@@ -1,3 +1,18 @@
+# Public demonstration: prevent search-index discovery while allowing social previews.
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
 User-agent: *
 Disallow: /
-# Independent unpublished website demonstration; remove only after approval
